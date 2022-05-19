@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin-left: 25vw;
+}
+
+main h1 {
+    padding-bottom: 10px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+main form h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2vh 0;
+}
+
+#basis,
+#schnittpunkt {
+    width: 50vw;
+    font-size: 18px;
+    padding: 5px;
+}
+
+main form div {
+    padding: 1vh 0;
+}
+
+main form div:nth-of-type(3) input:nth-of-type(2) {
+    background-color: mediumaquamarine;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+main form div:nth-of-type(3) input:nth-of-type(1) {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+main section h3 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 2vh 0;
+}
+
+main section article {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+#hintererTeil {
+    width: 25vw;
+}
